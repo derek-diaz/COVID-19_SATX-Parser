@@ -1,0 +1,19 @@
+{
+  "name": "covid-19-satx-parser",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon  ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
